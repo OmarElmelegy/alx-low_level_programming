@@ -5,11 +5,10 @@
  * @s: char type string
  * Return: integer converted
  */
-
 int _atoi(char *s)
 {
 	int i;
-	long res = 0;
+	int res = 0;
 	int sig = 1;
 	int brk = 0;
 
